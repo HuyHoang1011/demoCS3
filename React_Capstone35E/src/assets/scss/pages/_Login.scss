@@ -1,0 +1,113 @@
+.login {
+    padding-bottom: 16px;
+    background: #F5F5F5;
+    h2 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        padding: 60px 0 42px 96px;
+        border-bottom: 1px solid #DEDDDC;
+    }
+
+    .login_form {
+        .login_content {
+            label {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 0.135px;
+                color: rgba(0, 0, 0, 0.6);
+            }
+
+            input {
+                width: 443px;
+                height: 54px;
+                background: rgba(33, 33, 33, 0.08);
+                border-radius: 4px 4px 0px 0px;
+            }
+
+            .pass_eye {
+                position: relative;
+            }
+
+            .form-group {
+                i {
+                    color: rgba(0, 0, 0, 0.6);
+                }
+
+                .hiddeneye {
+                    position: absolute;
+                    right: 112px;
+                    top: 48px;
+                }
+            }
+        }
+
+        .login_register {
+            padding-top: 10px;
+
+            .btn_login {
+                margin-left: 20px;
+                width: 121px;
+                height: 48px;
+                background: #6200EE;
+                box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 50px;
+                transition: all 0.5s;
+                border: none;
+                color: white;
+                outline: none;
+                &:hover {
+                    background: green;
+                }
+            }
+
+            text-align: center;
+
+            a {
+                text-align: left;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 0.135px;
+                color: rgba(21, 42, 235, 0.8);
+                transition: all 0.5s;
+                margin-left: 80px;
+
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+
+        .btn_fb {
+            color: white;
+            width: 442px;
+            height: 63px;
+            background: #1877F2;
+            box-shadow: 0px 38.4869px 71.4756px rgba(0, 0, 0, 0.07);
+            border-radius: 20.9968px;
+            border: none;
+            margin-top: 10px;
+            transition: all 0.5s;
+            outline: none;
+            &:hover {
+                background: #0f4b99;
+                span{
+                    background:#0f4b99 ;
+                }
+            }
+            .fa-facebook  {
+                font-size: 40px;
+            }
+
+            span {
+                padding-left: 30px;
+                font-weight: 400;
+                font-size: 25px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

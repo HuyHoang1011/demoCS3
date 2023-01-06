@@ -1,0 +1,128 @@
+.cart {
+    min-height: 75vh;
+
+    .table__cart {
+        width: 100%;
+        text-align: left;
+
+        .table__head {
+            th {
+                padding: 10px 0;
+
+            }
+        }
+
+        .table__body {
+            td {
+                padding: 20px 0;
+
+
+                img {
+                    width: 100px;
+                }
+            }
+
+            .table__body-btn {
+                button {
+                    background-color: #6200EE;
+                    color: #fff;
+                    border: none;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 4px;
+                }
+
+                span {
+                    background-color: #D9D9D9;
+                    padding: 0 10px;
+                    margin: 0 5px;
+                }
+            }
+
+            .table__btn-delete {
+                text-decoration: none;
+                font-size: 28px;
+                color: #EB5757;
+                cursor: pointer;
+            }
+        }
+
+        .table__footer {
+            .table__btn-submit {
+                background-color: #F2994A;
+                color: #fff;
+                padding: 6px 8px;
+                border: none;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+@include mobile() {
+    .cart {
+        .table__cart {
+
+            .table__head {
+                th {
+                    font-size: 12px;
+                    padding: 5px;
+
+                }
+            }
+
+            .table__body {
+                td {
+                    font-size: 12px;
+                    padding: 5px;
+
+
+                    img {
+                        width: 50px;
+                    }
+                }
+
+                .table__body-btn {
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+
+                    button {
+                        line-height: 15px;
+                        width: 15px;
+                        height: 15px;
+
+                    }
+
+                    span {
+
+                        padding: 0 5px;
+                        margin: 5px 0;
+
+                    }
+                }
+
+                .table__btn-delete {
+
+                    font-size: 14px;
+
+
+                }
+            }
+
+            .table__footer {
+                span {
+                    font-size: 14px;
+                }
+
+                .table__btn-submit {
+                    font-size: 10px;
+                    background-color: #F2994A;
+                    padding: 4px 6px;
+                }
+            }
+        }
+    }
+}

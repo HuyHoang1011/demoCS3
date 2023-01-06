@@ -1,0 +1,47 @@
+.home {
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    .carousel {
+        .carousel-item {
+            margin: 0;
+            color: #000;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+            height: 20rem;
+
+        }
+    }
+}
+
+@include mobile {
+    .home {
+        padding: 10px 0 20px 0;
+
+        .home__feature {
+            .home__feature-title {
+                font-size: 18px;
+            }
+        }
+
+        .carousel {
+            .carousel-item {
+                height: 19rem;
+
+                h2 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
+
+                a {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+}
